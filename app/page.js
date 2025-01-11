@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginStart, loginSuccess, loginFailure } from '@/lib/features/authSlice';
+import { loginStart, loginSuccess, loginFailure } from '../lib/features/authslice';
 
 export default function Home() {
   const [email, setEmail] = useState('');
